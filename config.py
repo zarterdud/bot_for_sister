@@ -12,7 +12,7 @@ TOKEN = os.getenv("TOKEN")
 chat_id_operator = int(os.getenv("chat_id_operator"))
 db_name = "database.sqlite"
 start_gif_file_id = (
-    "BQACAgIAAxkBAAMmZvGQIIHoLJ-9RZgoX3x2XEdsecMAAo5aAALpjpFLtPeClrdKMrY2BA"
+    "CgACAgIAAxkBAAIBOWbyxaCmRgwgRoZ8ElmdNmW7YZonAAJOWAACSCKRS1GAWcST-ksUNgQ"
 )
 Polozhenie_Novoe_pdf_id = (
     "BQACAgIAAxkBAANmZvGwkEpjX6p0k0WjbXirsoStNS0AAhldAALpjpFLVN9xT09VDn02BA"

@@ -23,8 +23,8 @@ class MyBot:
     #     await message.answer(text=message)
 
     async def start(self, message: Message):
-        await message.answer_video(
-            video=start_gif_file_id,
+        await message.answer_animation(
+            animation=start_gif_file_id,
             caption=caption_for_command_start,
             reply_markup=start_keyboard(),
             parse_mode="HTML",

@@ -38,10 +38,24 @@ def position_keyboard():
             [
                 InlineKeyboardButton(
                     "Общее положение",
-                    callback_data="General_position",
+                    callback_data="general_position",
                 )
             ],
             [InlineKeyboardButton("Назад", callback_data="to_start")],
         ]
     )
     return position_kb
+
+
+def mailing_to_orgs_keyboard():
+    mailing_to_orgs_kb = InlineKeyboardMarkup(
+        inline_keyboard=[
+            [
+                InlineKeyboardButton(
+                    "Задать вопрос", callback_data="chat_with_operator"
+                )
+            ],
+            [InlineKeyboardButton("Назад", callback_data="to_start")],
+        ]
+    )
+    return mailing_to_orgs_kb
